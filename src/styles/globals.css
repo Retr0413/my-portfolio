@@ -120,7 +120,7 @@ hr {
 .hero-container .profile-img {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 40%;
   margin: 0 auto;
   object-fit: cover;
 }
