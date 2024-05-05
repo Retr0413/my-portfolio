@@ -3,7 +3,7 @@
     width: 36px;
     height: 30px;
     left: 36px;
-    top: 36px;
+    top: 18px;
 }
 
 .bm-burger-bars {
@@ -29,7 +29,7 @@
 
 .bm-menu {
     background: #373a47;
-    padding: 1.5em 1.5em 0;
+    padding: 2.5em 2em 0;
     font-size: 1.5em;
 }
 
@@ -52,8 +52,9 @@
     text-decoration: none;
     transition: color 0.2s;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 2px solid black;
-    line-height: 135px;
+    border-bottom: 1px solid black;
+    line-height: 90px;
+    font-size: 1.3rem;
 }
 
 .bm-item:hover {

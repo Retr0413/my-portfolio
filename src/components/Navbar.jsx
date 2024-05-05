@@ -5,10 +5,10 @@ const Navbar = () => {
         <div className="nav-container">
             <div className="logo">
                 <Link href="/">
-                    My Portfolio
+                    TopPage
                 </Link>
             </div>
-            <a href="" className="cta-btn">ボタン</a>
+            <a href="" className="cta-btn">履歴書</a>
         </div>
     )
 }
