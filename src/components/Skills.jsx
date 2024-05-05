@@ -1,6 +1,12 @@
+import Image from "next/image";
+
 const Skills = () => {
     return (
-        <div className="skills-container">
+        <div className="skills-page" >
+            <div className="image-container">
+                <Image src='/images/skills.jpg' width={950} height={800} />
+            </div>
+            <div className="skills-container">
             <h2>Skills</h2>
             <div className="grid-skills">
                 <div className="skill-card html">
@@ -28,6 +34,7 @@ const Skills = () => {
                     <p>C++</p>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
