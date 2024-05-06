@@ -170,6 +170,7 @@ hr {
 /* About */
 .about-container {
   padding: 0rem 0;
+  align-items: start;
 }
 
 .about-container h2 {

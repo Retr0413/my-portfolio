@@ -2,11 +2,11 @@ import Image from 'next/image'
 
 const Page = () => {
   return (
-    <div calssName="Fron">
-      <div className="frontimage">
-        <Image src='/images/frontpage.jpg' alt="背景写真" width={1652} height={980} className='round-2x1' />
+    <div className="backgroundimage">
+      <Image src="/images/frontpage.jpg" layout="fill" objectFit='cover' quality={100} alt="background" />
+      <div className="backgroundtext">
+        My Portfolio
       </div>
-      <p>My Portfolio</p>
     </div>
   )
 }
