@@ -10,14 +10,14 @@ body {
   line-height: 1.5;
   background-color: #1D1E20;
   color: #DADADB;
-  width: 1900px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 0;
 }
 
 @media screen and (max-width: 768px) {
   body {
-    width: 100%;
+    width: 90%;
     padding: 0 2rem;
   }
 }
@@ -236,18 +236,21 @@ hr {
 /* Skills */
 .skills-page {
   display: flex;
-  align-items: start;
+  align-items: stretch;
   justify-content: space-between;
   width: 100%;
 }
 
 .image-container {
-  width: 40%;
-  padding-right: 20px;
+  width: 50%;
+  position: relative;
+  margin-right: 30px;
 }
 
 .skills-container {
-  width: 48%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .skills-container h2 {
@@ -258,13 +261,41 @@ hr {
 
 .skills-container .grid-skills {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  flex-grow: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  .skills-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container,
+  .skills-container {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .skills-container h2 {
+    order: 1;
+  }
+
+  .image-container {
+    order: 0;
+    margin-bottom: 20px;
+  }
+
   .skills-container .grid-skills {
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills-container .grid-skills {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -274,12 +305,13 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0 1rem;
+  gap: 10%;
   padding: 50px;
-  border-radius: 8px;
+  border-radius: 70px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease-in-out;
   cursor: context-menu;
+  height: 300px;
 }
 
 .skills-container .grid-skills i {

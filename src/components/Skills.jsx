@@ -4,7 +4,15 @@ const Skills = () => {
     return (
         <div className="skills-page" >
             <div className="image-container">
-                <Image src='/images/skills.jpg' width={950} height={800} />
+                <div style={{ position: 'relative', height: '100%' }}>
+                    <Image
+                        src="/images/skills.jpg"
+                        layout="fill"
+                        objectFit="cover"
+                        quality={100}
+                        alt="Coding on a laptop"
+                    />
+                </div>
             </div>
             <div className="skills-container">
             <h2>Skills</h2>
