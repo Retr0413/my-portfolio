@@ -16,14 +16,11 @@ const Home = () => {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.jpeg" />
         </Head>
-        <div>
-            <Frontpage />
-            <Hero />
-            <About />
-            <Skills />
-            <Projects />
-            <Contact />
-        </div>
+        <div id="frontpage"><Frontpage /></div>
+        <div id="about"><About /></div>
+        <div id="skills"><Skills /></div>
+        <div id="projects"><Projects /></div>
+        <div id="contact"><Contact /></div>
         </>
     )
 }

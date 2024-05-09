@@ -1,23 +1,24 @@
 import { slide as Menu } from 'react-burger-menu';
+import { Link } from 'react-scroll';
 
 const props = () => {
     return (
         <Menu>
-            <a className="menu-item" href="/">
+            <Link className="menu-item" to="frontpage" spy={true} smooth={true} duration={500}>
                 Top Page
-            </a>
-            <a className="menu-item" href="/About.jsx">
+            </Link>
+            <Link className="menu-item" to="about" spy={true} smooth={true} duration={500}>
                 About Me
-            </a>
-            <a className="menu-item" href="/Skills.jsx">
+            </Link>
+            <Link className="menu-item" to="skills" spy={true} smooth={true} duration={500}>
                 Skills
-            </a>
-            <a className="menu-item" href="/Projects.jsx">
+            </Link>
+            <Link className="menu-item" to="projects" spy={true} smooth={true} duration={500}>
                 Projects
-            </a>
-            <a className="menu-item" href="/Contact.jsx">
+            </Link>
+            <Link className="menu-item" to="contact" spy={true} smooth={true} duration={500}>
                 Contact
-            </a>
+            </Link>
         </Menu>
     );
 };

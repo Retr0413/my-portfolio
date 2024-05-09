@@ -278,13 +278,20 @@ hr {
     align-items: center;
   }
 
-  .image-container,
-  .skills-container {
+  .image-container {
+    order: 1;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .skills-container h2 {
+    order: 0;
     width: 100%;
     margin-right: 0;
   }
 
-  .skills-container h2 {
+  .grid-skills {
     order: 1;
   }
 
