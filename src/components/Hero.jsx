@@ -1,16 +1,6 @@
 import Image from "next/image";
-// import { useEffect, useState } from 'react';
 
 const Hero = () => {
-    // const [showText, setShowText] = useState(false);
-
-    // useEffect(() => {
-    // const timer = setTimeout(() => {
-    //   setShowText(true);
-    // }, 500);
-    // return () => clearTimeout(timer);
-    // }, []);
-
     return (
         <div className="hero-container">
         <Image src='/images/sunsun.jpg' className="profile-img" width={300} height={300} alt="Arima's personal headshot" />

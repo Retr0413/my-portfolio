@@ -107,7 +107,6 @@ hr {
 }
 
 /* Hero */
-
 .hero-container {
   height: 90vh;
   display: flex;
@@ -313,12 +312,12 @@ hr {
   justify-content: center;
   align-items: center;
   gap: 10%;
-  padding: 50px;
+  padding: 30px;
   border-radius: 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease-in-out;
   cursor: context-menu;
-  height: 300px;
+  height: 250px;
   font-size: 2rem;
 }
 
@@ -390,7 +389,7 @@ hr {
 
 .project-card {
   flex: 0 0 90%;
-  width: 300px;
+  width: 200px;
   border: 1px solid #e6e6e6;
   padding: 40px;
   border-radius: 5px;

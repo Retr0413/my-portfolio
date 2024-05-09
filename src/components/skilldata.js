@@ -35,4 +35,10 @@ export const skillsData = [
     icon: 'fa-brands fa-c', 
     image: 'images/Cpp.jpg'
     },
+    {
+    id: 7,
+    name: 'Unity',
+    icon: '',
+    image: 'images/Unitylogo.jpg'
+    },
 ];
