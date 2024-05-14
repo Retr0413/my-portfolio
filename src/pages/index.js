@@ -17,6 +17,7 @@ const Home = () => {
             <link rel="icon" href="/favicon.jpeg" />
         </Head>
         <div id="frontpage"><Frontpage /></div>
+        <div><Hero /></div>
         <div id="about"><About /></div>
         <div id="skills"><Skills /></div>
         <div id="projects"><Projects /></div>

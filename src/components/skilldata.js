@@ -41,4 +41,10 @@ export const skillsData = [
     icon: '',
     image: 'images/Unitylogo.jpg'
     },
+    {
+    id: 8,
+    name: 'C#',
+    icon: '',
+    image: 'images/Csharp.jpg'
+    },
 ];
