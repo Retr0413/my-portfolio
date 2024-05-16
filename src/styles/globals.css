@@ -171,6 +171,7 @@ hr {
   margin: 0 auto;
   align-items: start;
   padding-bottom: 2rem;
+  height: 600px;
 }
 
 .about-container h2 {
@@ -211,8 +212,8 @@ hr {
 }
 
 .about-container .about-img {
-  width: 81%;
-  height: auto;
+  width: 150%;
+  height: 520px;
   overflow: hidden;
 }
 
