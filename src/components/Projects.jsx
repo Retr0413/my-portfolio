@@ -16,11 +16,17 @@ const Projects = () => {
                      }}>
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
-                        <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a> 
-                        <a>{project.githubLink}</a>
+                        <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                            {project.githubLink}
+                        </a>
                     </div>
-                ))
-                }
+                ))}
+            </div>
+            <div className="github-section">
+                <h3>私のGitHubページ</h3>
+                <a href="https://github.com/Retr0413" target="_blank" rel="noopener noreferrer">
+                https://github.com/Retr0413
+                </a>
             </div>
         </div>
     )

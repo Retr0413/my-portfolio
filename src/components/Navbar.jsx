@@ -8,7 +8,6 @@ const Navbar = () => {
                     TopPage
                 </Link>
             </div>
-            <a href="" className="cta-btn">履歴書</a>
         </div>
     )
 }

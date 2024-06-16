@@ -15,7 +15,7 @@ const Page = () => {
     <div className="backgroundimage">
       <Image src="/images/frontpage.jpg" layout="fill" objectFit='cover' quality={100} alt="background" />
       <div className="backgroundtext">
-        My Portfolio
+        Arima Hayato Portfolio
       </div>
     </div>
   )
