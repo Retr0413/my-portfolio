@@ -64,3 +64,26 @@
 .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
 }
+
+@media screen and (max-width: 768px) {
+    .bm-burger-button {
+        width: 24px; 
+        height: 20px; 
+        left: 20px; 
+        top: 15px; 
+    }
+
+    .bm-menu {
+        padding: 2em 0 0; 
+        font-size: 1em; 
+    }
+
+    .bm-menu-wrap {
+        width: 725%; 
+    }
+
+    .bm-item {
+        line-height: 110px; 
+        font-size: 1.2rem; 
+    }
+}
