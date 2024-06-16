@@ -28,3 +28,10 @@
         transform: translate(-50%, 0%);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .backgroundtext {
+        font-size: 60px; 
+        top: 40%; 
+    }
+}

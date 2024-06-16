@@ -390,11 +390,26 @@ hr {
   .projects-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .project-card {
+    flex: 0 0 100%;
+    width: auto;
+    padding: 20px;
+    height: auto;
+  }
+
+  .project-card h3 {
+    font-size: 1.2rem; 
+  }
+
+  .project-card p {
+    font-size: 0.9rem; 
+  }
 }
 
 .project-card {
-  flex: 0 0 70%;
-  width: 150px;
+  flex: 0 0 80%; 
+  width: 180px;   
   border: 1px solid #e6e6e6;
   padding: 40px;
   border-radius: 5px;
@@ -414,6 +429,7 @@ hr {
   margin-bottom: 10px;
   color: #b3b3b3;
 }
+
 .github-section {
   text-align: center;
   margin-top: 2rem;
