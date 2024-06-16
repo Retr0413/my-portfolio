@@ -10,7 +10,7 @@ export default function Document() {
                 href="https://cdnjs.cloundflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
                 integrity="sha512-MV7K8+gLIBoVD591QIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
                 crossOrigin="anonymous"
-                referrerpolicy="no-referrer"
+                referrerPolicy="no-referrer"
                 />
             </Head>
             <body>

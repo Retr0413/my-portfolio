@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <>
         <Head>
-            <title>Portfolio</title>
+            <title>HA-Defalt Portfolio</title>
             <meta name="description" content="有馬勇人のポートフォリオ" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.jpeg" />

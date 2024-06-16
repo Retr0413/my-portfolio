@@ -13,7 +13,7 @@ const Page = () => {
   
   return (
     <div className="backgroundimage">
-      <Image src="/images/frontpage.jpg" layout="fill" objectFit='cover' quality={100} alt="background" />
+      <Image src="/images/frontpage.jpg" fill style={{ objectFit: 'cover' }} />
       <div className="backgroundtext">
         Arima Hayato Portfolio
       </div>
